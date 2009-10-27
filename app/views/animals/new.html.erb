@@ -2,8 +2,8 @@
 
 
 <% form_for @animal do |f| %>
-	<%= f.text_field :name %>
-	<%= f.text_field :age %>
+	Name: <%= f.text_field :name %>
+	Age: <%= f.text_field :age %>
 	
 	<%= submit_tag "create" %>
 <% end %>
