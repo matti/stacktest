@@ -1,0 +1,12 @@
+<h1>Animal farm</h1>
+
+<%= link_to "Create a new animal", new_animal_url %>
+
+<h2>Animals:</h2>
+
+<ul>
+<% @animals.each do |animal| %>
+	<li><%= animal.name %> of age: <%= animal.age %></li>
+<% end %>
+</ul>
+

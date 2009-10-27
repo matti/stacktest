@@ -1,0 +1,9 @@
+<%= error_messages_for :animal %>
+
+
+<% form_for @animal do |f| %>
+	<%= f.text_field :name %>
+	<%= f.text_field :age %>
+	
+	<%= submit_tag "create" %>
+<% end %>
