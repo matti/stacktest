@@ -11,8 +11,7 @@ module NavigationHelpers
     when /the home\s?page/
       '/'
     when /the animal creation page/
-      new_animal_path
-
+      new_animal_path    
     
     # Add more mappings here.
     # Here is a more fancy example:
